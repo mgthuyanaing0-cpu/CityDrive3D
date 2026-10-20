@@ -1,0 +1,14 @@
+ဖုန်းတစ်လုံးတည်းနဲ့ City Drive APK ထုတ်ရန်
+
+1) GitHub account တစ်ခုရှိရပါမယ်။ မရှိရင် GitHub website မှာ account ဖွင့်ပါ။
+2) GitHub မှာ repository အသစ်တစ်ခုဖန်တီးပါ (ဥပမာ city-drive-app)။
+3) ဒီ ZIP ကို Extract လုပ်ပါ။ Extract လုပ်ထားတဲ့ folder အတွင်းက ဖိုင်/ဖိုလ်ဒါအားလုံးကို repository ထဲ upload လုပ်ပါ။ ZIP ဖိုင်တစ်ခုတည်းကို upload မလုပ်ပါနှင့်။
+4) Upload ပြီးရင် Commit changes ကိုနှိပ်ပါ။
+5) Repository ရဲ့ Actions tab ကိုဖွင့်ပါ။ Android build workflow ကိုရွေးပြီး Run workflow ကိုနှိပ်ပါ။ Push လုပ်လိုက်ရင်လည်း build အလိုအလျောက် စတင်ပါမယ်။
+6) Build ပြီးသွားလျှင် workflow run ထဲက Artifacts အောက်တွင် City-Drive-APK ကို download လုပ်ပါ။
+7) ZIP artifact ကိုဖွင့်ပြီး app-debug.apk ကိုဖုန်းမှာ install လုပ်ပါ။ Android က “Install unknown apps” ခွင့်ပြုချက် မေးနိုင်ပါတယ်။
+
+သတိ:
+- ဒီနည်းမှာ build ကို cloud က လုပ်ပေးတာပါ။ GitHub account/အင်တာနက် လိုပါတယ်။
+- Build မအောင်မြင်ရင် Actions run log ရဲ့ error screenshot ပို့ပါ; project config ကို ပြင်ပေးနိုင်ပါတယ်။
+- ဒီ project က lightweight 2D/pseudo-3D prototype ဖြစ်ပြီး GTA အဆင့် native 3D game မဟုတ်ပါ။
